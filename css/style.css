@@ -112,10 +112,15 @@ h3 {
   transform: scale(1.1);
 }
 
+.trending-nails {
+  color: #ffe6f8;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
 .manicure-container {
   display: flex;
   flex-direction: row;
-  margin: 200px;
+  margin: 100px;
   gap: 200px;
 }
 
@@ -135,7 +140,7 @@ a {
 
 .footer-container {
   background-color: #e89bb2;
-  color: red;
+  color: white;
   text-align: center;
   font-size: 30px;
 }
