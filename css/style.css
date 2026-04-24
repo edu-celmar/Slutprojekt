@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffe6f8;
+  font-family: "cookie", sans-serif;
+  color: #ffe6f8;
+}
+.hero {
+  background-image: url(/bilder/Gradientbild.png);
+  background-size: 100% 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78vh;
+}
+
+header {
+  background-color: #ffdef5;
+  position: sticky;
+  top: 0;
+}
+
+.topp-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e89bb2;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #ffdef5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  background: none;
+  display: inline-block;
+}
+
+h1 a {
+  color: #e89bb2;
+  font-size: 25px;
+  display: inline-block;
+  width: fit-content;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-naglar {
+  font-size: 30px;
+  transition: all 0.25s ease;
+  text-align: right;
+}
+
+.menu-naglar:hover {
+  transform: translateX(-10px);
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu-designs {
+  font-size: 30px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.menu-designs:hover {
+  transform: translateX(-10px);
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #ffe6f8;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  color: #ffe6f8;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.get-started {
+  background-color: #e89bb2;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  font-family: "cookie", sans-serif;
+  font-size: 27px;
+  width: 110px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+.get-started:hover {
+  background-color: #c25d89;
+  transform: scale(1.1);
+}
+
+.manicure-container {
+  display: flex;
+  flex-direction: row;
+  margin: 200px;
+  gap: 200px;
+}
+
+.top-rated-image {
+  width: 20%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffe6f8;
+}
+
+.footer-container {
+  background-color: #e89bb2;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
