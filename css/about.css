@@ -1,18 +1,7 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #ffe6f8;
   font-family: "cookie", sans-serif;
   color: #ffe6f8;
-}
-.hero {
-  background-image: url(/bilder/Gradientbild.png);
-  background-size: 100% 150vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 78vh;
 }
 
 header {
@@ -78,17 +67,6 @@ h1 a {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-us {
-  font-size: 30px;
-  position: relative;
-  transition: all 0.25s ease;
-}
-
-.about-us:hover {
-  transform: translateX(-10px);
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-
 h2 {
   color: #ffe6f8;
   font-size: 100px;
@@ -101,57 +79,4 @@ h3 {
   font-size: 75px;
   text-align: center;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-
-.get-started {
-  background-color: #e89bb2;
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 15px;
-  font-family: "cookie", sans-serif;
-  font-size: 27px;
-  width: 110px;
-  transition: all 200ms ease-in;
-  cursor: pointer;
-  margin: 20px auto;
-  display: block;
-}
-.get-started:hover {
-  background-color: #c25d89;
-  transform: scale(1.1);
-}
-
-.trending-nails {
-  color: #ffe6f8;
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-
-.manicure-container {
-  display: flex;
-  flex-direction: row;
-  margin: 100px;
-  gap: 200px;
-}
-
-.top-rated-image {
-  width: 20%;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #ffe6f8;
-}
-
-.footer-container {
-  background-color: #e89bb2;
-  color: white;
-  text-align: center;
-  font-size: 30px;
 }
