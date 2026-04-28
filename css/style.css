@@ -131,12 +131,12 @@ h3 {
 .manicure-container {
   display: flex;
   flex-direction: row;
-  margin: 100px;
-  gap: 200px;
+  margin: 150px;
+  gap: 180px;
 }
 
 .top-rated-image {
-  width: 20%;
+  width: 200px;
 }
 
 * {
