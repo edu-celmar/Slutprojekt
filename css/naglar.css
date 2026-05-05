@@ -1,9 +1,11 @@
 body {
   background-color: #ffe6f8;
+  font-family: "Cookie", sans-serif;
 }
 
 header {
   background-color: #ffdef5;
+  top: 0;
 }
 
 .topp-nav ul {
@@ -48,25 +50,25 @@ h1:hover {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.menu-naglar {
+.menu-home {
   font-size: 30px;
+  position: relative;
   transition: all 0.25s ease;
-  text-align: right;
 }
 
-.menu-naglar:hover {
+.menu-home:hover {
   transform: translateX(-10px);
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.menu-designs {
+.menu-about {
   font-size: 30px;
   position: relative;
   transition: all 0.25s ease;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-.menu-designs:hover {
+.menu-about:hover {
   transform: translateX(-10px);
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -83,9 +85,13 @@ h1:hover {
 }
 
 .nail-gallery img:hover {
-  transform: scale(1.35);
+  transform: scale(1.15);
   transition: all 0.25s ease;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
 }
 
 .footer-container {

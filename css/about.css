@@ -1,7 +1,6 @@
 body {
-  background-color: #ffe6f8;
+  background-color: black;
   font-family: "cookie", sans-serif;
-  color: #ffe6f8;
 }
 
 header {
@@ -31,8 +30,14 @@ ul li a {
 }
 
 h1 {
-  background: none;
+  color: #e89bb2;
+  font-size: 50px;
   display: inline-block;
+  width: fit-content;
+  padding: 6px 10px;
+  text-decoration: none;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+  background: none;
 }
 
 h1 a {
@@ -42,7 +47,13 @@ h1 a {
   width: fit-content;
   padding: 6px 10px;
   text-decoration: none;
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+h1:hover {
+  transform: translateX(-3px);
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .menu-naglar {
@@ -56,27 +67,17 @@ h1 a {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.menu-designs {
+.menu-home {
   font-size: 30px;
   position: relative;
   transition: all 0.25s ease;
 }
 
-.menu-designs:hover {
+.menu-home:hover {
   transform: translateX(-10px);
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
-  color: #ffe6f8;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-
-h3 {
-  color: #ffe6f8;
-  font-size: 75px;
-  text-align: center;
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+* {
+  margin: 0;
 }

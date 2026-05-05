@@ -42,18 +42,14 @@ ul li a {
 }
 
 h1 {
-  background: none;
-  display: inline-block;
-}
-
-h1 a {
   color: #e89bb2;
-  font-size: 25px;
+  font-size: 50px;
   display: inline-block;
   width: fit-content;
   padding: 6px 10px;
   text-decoration: none;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+  background: none;
 }
 
 .menu-naglar {
@@ -67,24 +63,13 @@ h1 a {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.menu-designs {
+.menu-about {
   font-size: 30px;
   position: relative;
   transition: all 0.25s ease;
 }
 
-.menu-designs:hover {
-  transform: translateX(-10px);
-  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-}
-
-.about-us {
-  font-size: 30px;
-  position: relative;
-  transition: all 0.25s ease;
-}
-
-.about-us:hover {
+.menu-about:hover {
   transform: translateX(-10px);
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
@@ -101,6 +86,18 @@ h3 {
   font-size: 75px;
   text-align: center;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  animation-name: my-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes my-animation {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
 }
 
 .get-started {
