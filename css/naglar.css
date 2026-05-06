@@ -74,14 +74,17 @@ h1:hover {
 }
 
 .nail-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  column-count: 3;
+  column-gap: 50px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .nail-gallery img {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: block;
 }
 
 .nail-gallery img:hover {
@@ -94,9 +97,54 @@ h1:hover {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #ffe6f8;
+}
+
 .footer-container {
   background-color: #e89bb2;
-  color: red;
+  color: white;
   text-align: center;
   font-size: 30px;
+}
+
+.footer-container a {
+  padding: 10px;
+  font-size: 45px;
+}
+
+.footer-container a:hover {
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #e89bb2;
+  padding: 10px;
+}
+
+.sticky-footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sticky-footer ul li a {
+  color: #ffe6f8;
+  font-size: 30px;
+  transition: all 0.25s ease;
+}
+
+.sticky-footer ul li a:hover {
+  transform: translateY(-5px);
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
 }

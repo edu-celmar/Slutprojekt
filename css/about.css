@@ -78,6 +78,67 @@ h1:hover {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
+.about-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
 * {
   margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffe6f8;
+}
+
+.footer-container {
+  background-color: #e89bb2;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer-container a {
+  padding: 10px;
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.footer-container a:hover {
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.footer-text {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #e89bb2;
+  padding: 10px;
+}
+
+.sticky-footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.sticky-footer ul li a {
+  color: #ffe6f8;
+  font-size: 30px;
+  transition: all 0.25s ease;
+}
+
+.sticky-footer ul li a:hover {
+  transform: translateY(-5px);
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
 }
