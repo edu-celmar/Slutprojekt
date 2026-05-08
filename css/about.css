@@ -78,11 +78,24 @@ h1:hover {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.about-container {
-  background-color: #ffdef5;
-  color: white;
+.about-intro {
+  color: #ffe6f8;
+  font-size: 30px;
   text-align: center;
-  padding: 50px;
+  margin: 50px;
+}
+
+.kontakt-form {
+  border-radius: 5px;
+  background-color: #ffdef5;
+  padding: 10px;
+}
+
+.kontakt-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 * {

@@ -142,7 +142,7 @@ h4 {
 
 .top-rated-image:hover {
   transform: scale(1.15);
-  transition: all 0.25s ease;
+  transition: all 0.25s ease-in-out;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
