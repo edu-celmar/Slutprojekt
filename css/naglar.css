@@ -73,23 +73,48 @@ h1:hover {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
-.nail-gallery {
+h2 {
+  color: #ffe6f8;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  color: #e89bb2;
+  font-size: 115px;
+  text-align: center;
+  text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-naglar {
+  background-image: url("../bilder/nagel\ intro2.jpg");
+  background-size: 100% 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 78vh;
+}
+
+.nail-container {
   column-count: 3;
   column-gap: 50px;
   max-width: 900px;
   margin: auto;
 }
 
-.nail-gallery img {
+.nail-container img {
   width: 100%;
-  margin-bottom: 15px;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 12px;
   display: block;
+  padding: 15px;
 }
 
-.nail-gallery img:hover {
+.nail-container img:hover {
   transform: scale(1.15);
-  transition: all 0.25s ease;
+  transition: all 0.25s ease-in-out;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
