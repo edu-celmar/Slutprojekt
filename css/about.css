@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(150, 202, 250);
   font-family: "cookie", sans-serif;
 }
 
@@ -79,7 +79,7 @@ h1:hover {
 }
 
 .about-intro {
-  color: #ffe6f8;
+  color: black;
   font-size: 30px;
   text-align: center;
   margin: 50px;

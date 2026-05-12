@@ -137,7 +137,8 @@ h4 {
 }
 
 .top-rated-image {
-  width: 220px;
+  width: 100%;
+  height: 100%;
 }
 
 .top-rated-image:hover {
