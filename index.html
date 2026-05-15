@@ -1,10 +1,22 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GlossFinder</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link id="mainCss" rel="stylesheet" href="css/style.css" />
+
+    <script>
+      // Get the theme toggle button and the main CSS link element
+      const mainCssLink = document.getElementById("mainCss");
+      const currentTheme = localStorage.getItem("isDarkTheme");
+      if (currentTheme === "yes") {
+        mainCssLink.href = "css/darkStyle.css";
+      } else {
+        mainCssLink.href = "css/style.css";
+      }
+    </script>
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Meie+Script&family=Sofia&family=Yesteryear&display=swap");
     </style>
@@ -22,6 +34,14 @@
             <li><a href="naglar.html" class="menu-naglar">Nails</a></li>
             <li><a href="about.html" class="menu-about">About us</a></li>
           </ul>
+          <button
+            type="button"
+            id="theme-toggle"
+            data-theme-toggle
+            aria-label="Change to light theme"
+          >
+            Toggle theme
+          </button>
         </div>
       </nav>
     </header>
@@ -95,5 +115,7 @@
         </section>
       </div>
     </footer>
+
+    <script src="js/app.js"></script>
   </body>
 </html>

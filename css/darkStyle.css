@@ -3,7 +3,7 @@
 }
 
 [data-theme="light"] {
-  --color-bg: #ffe6f8;
+  --color-bg: #000000;
   --color-fg: #e89bb2;
 }
 
@@ -19,7 +19,7 @@ html {
 body {
   background-color: var(--color-bg);
   font-family: "cookie", sans-serif;
-  color: #ffe6f8;
+  color: #140711;
 }
 .hero {
   background-image: url(/bilder/Gradientbild.png);
@@ -131,7 +131,7 @@ h4 {
 
 .trending-nails {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
-  animation: my-animation 1s infinite alternate;
+  animation: my-animation 1.5s infinite alternate;
 }
 
 @keyframes my-animation {
