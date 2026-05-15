@@ -1,6 +1,7 @@
 body {
-  background-color: #ffe6f8;
+  background-color: #fbe6ff;
   font-family: "Cookie", sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -85,6 +86,7 @@ h3 {
   font-size: 115px;
   text-align: center;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
 }
 
 .hero-naglar {
@@ -105,10 +107,11 @@ h3 {
 
 .nail-container img {
   width: 100%;
-  height: 100%;
+  height: 300px;
   margin-bottom: 50px;
   border-radius: 12px;
   display: block;
+  object-fit: cover;
 }
 
 .nail-container img:hover {
@@ -122,32 +125,84 @@ h4 {
   font-size: 115px;
   text-align: center;
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+  padding-bottom: 30px;
 }
 
 .french-section {
   background-color: rgb(150, 202, 250);
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .french-container {
-  column-count: 2;
-  column-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
   max-width: 1000px;
   margin: auto;
+  justify-items: center;
 }
 
 .french-container img {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: auto;
   margin-bottom: 50px;
   border-radius: 12px;
   display: block;
+  object-fit: cover;
 }
 
 .french-container img:hover {
   transform: scale(1.15);
   transition: all 0.25s ease-in-out;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tabell-bilder td {
+  padding: 13px;
+}
+
+.nail-table {
+  width: 35%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.nail-table thead th {
+  background-color: #e89bb2;
+  color: white;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-bottom: 3px solid black;
+}
+
+.nail-table tbody tr:nth-child(1) {
+  background-color: purple;
+}
+
+.nail-table tbody tr:nth-child(2) {
+  background-color: lightblue;
+}
+
+.nail-table tbody tr:nth-child(3) {
+  background-color: blue;
+}
+
+.nail-table tbody tr:nth-child(4) {
+  background-color: pink;
+}
+
+.nail-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid black;
+}
+
+.nail-table tfoot td {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  border-top: 3px solid white;
 }
 
 * {
@@ -204,4 +259,88 @@ a {
   transform: translateY(-5px);
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .topp-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .topp-nav ul li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .topp-nav ul li a {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  h1 a {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+
+  .hero-naglar {
+    background-size: cover;
+    height: auto;
+    min-height: 50vh;
+  }
+
+  .nail-container {
+    column-count: 1;
+    gap: 30px;
+    max-width: none;
+    margin: auto;
+    height: auto;
+  }
+
+  .nail-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  h4 {
+    font-size: 50px;
+  }
+
+  .french-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: none;
+    margin: auto;
+  }
+
+  .french-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-container {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .footer-container a {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .sticky-footer ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sticky-footer ul li a {
+    font-size: 20px;
+  }
 }

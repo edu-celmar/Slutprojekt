@@ -154,3 +154,42 @@ a {
   text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .topp-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-naglar,
+  .menu-home {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about-intro {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .footer-container {
+    font-size: 20px;
+  }
+
+  .footer-container a {
+    font-size: 30px;
+  }
+
+  .sticky-footer ul li a {
+    font-size: 20px;
+  }
+
+  .sticky-footer ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sticky-footer ul li {
+    margin-bottom: 10px;
+  }
+}
